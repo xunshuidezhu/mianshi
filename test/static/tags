@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Bitree	main.cc	/^    Bitree()$/;"	f	class:Bitree	access:public	signature:()
+Bitree	main.cc	/^class Bitree {$/;"	c	file:
+Bitree::Bitree	main.cc	/^    Bitree()$/;"	f	class:Bitree	access:public	signature:()
+Bitree::Create	main.cc	/^    Node* Create(string& s, int& pos)$/;"	f	class:Bitree	access:public	signature:(string& s, int& pos)
+Bitree::CreateBitree	main.cc	/^    void CreateBitree(string& s)$/;"	f	class:Bitree	access:public	signature:(string& s)
+Bitree::preorder	main.cc	/^    void preorder(Node* p)$/;"	f	class:Bitree	access:public	signature:(Node* p)
+Bitree::root	main.cc	/^    Node* root;$/;"	m	class:Bitree	file:	access:public
+Create	main.cc	/^    Node* Create(string& s, int& pos)$/;"	f	class:Bitree	access:public	signature:(string& s, int& pos)
+CreateBitree	main.cc	/^    void CreateBitree(string& s)$/;"	f	class:Bitree	access:public	signature:(string& s)
+Node	main.cc	/^typedef struct Node {$/;"	s	file:
+Node::data	main.cc	/^    char data;$/;"	m	struct:Node	file:	access:public
+Node::left	main.cc	/^    Node *right, *left;$/;"	m	struct:Node	file:	access:public
+Node::right	main.cc	/^    Node *right, *left;$/;"	m	struct:Node	file:	access:public
+Treenode	main.cc	/^} Treenode;$/;"	t	typeref:struct:Node	file:
+a	static1.h	/^static int a;$/;"	v
+a	static2.h	/^int a = 3;$/;"	v
+b	static2.h	/^int b = 3;$/;"	v
+create	main.cc	/^Treenode* create(string& s, int& pos)$/;"	f	signature:(string& s, int& pos)
+createTree	main.cc	/^Treenode* createTree(string& s, int& pos)$/;"	f	signature:(string& s, int& pos)
+data	main.cc	/^    char data;$/;"	m	struct:Node	file:	access:public
+foo	m.c	/^void foo()$/;"	f
+left	main.cc	/^    Node *right, *left;$/;"	m	struct:Node	file:	access:public
+main	main.cc	/^int main()$/;"	f	signature:()
+preOrder	main.cc	/^void preOrder(Treenode* root)$/;"	f	signature:(Treenode* root)
+preorder	main.cc	/^    void preorder(Node* p)$/;"	f	class:Bitree	access:public	signature:(Node* p)
+right	main.cc	/^    Node *right, *left;$/;"	m	struct:Node	file:	access:public
+root	main.cc	/^    Node* root;$/;"	m	class:Bitree	file:	access:public

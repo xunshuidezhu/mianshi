@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Bitree	static/main.cc	/^    Bitree()$/;"	f	class:Bitree	access:public	signature:()
+Bitree	static/main.cc	/^class Bitree {$/;"	c	file:
+Bitree::Bitree	static/main.cc	/^    Bitree()$/;"	f	class:Bitree	access:public	signature:()
+Bitree::Create	static/main.cc	/^    Node* Create(string& s, int& pos)$/;"	f	class:Bitree	access:public	signature:(string& s, int& pos)
+Bitree::CreateBitree	static/main.cc	/^    void CreateBitree(string& s)$/;"	f	class:Bitree	access:public	signature:(string& s)
+Bitree::preorder	static/main.cc	/^    void preorder(Node* p)$/;"	f	class:Bitree	access:public	signature:(Node* p)
+Bitree::root	static/main.cc	/^    Node* root;$/;"	m	class:Bitree	file:	access:public
+Create	static/main.cc	/^    Node* Create(string& s, int& pos)$/;"	f	class:Bitree	access:public	signature:(string& s, int& pos)
+CreateBitree	static/main.cc	/^    void CreateBitree(string& s)$/;"	f	class:Bitree	access:public	signature:(string& s)
+Node	static/main.cc	/^typedef struct Node {$/;"	s	file:
+Node::data	static/main.cc	/^    char data;$/;"	m	struct:Node	file:	access:public
+Node::left	static/main.cc	/^    Node *right, *left;$/;"	m	struct:Node	file:	access:public
+Node::right	static/main.cc	/^    Node *right, *left;$/;"	m	struct:Node	file:	access:public
+Singlenton	singlenton/singlenton.cc	/^    Singlenton()$/;"	f	class:Singlenton	file:	access:private	signature:()
+Singlenton	singlenton/singlenton.cc	/^    Singlenton(const Singlenton&)$/;"	f	class:Singlenton	file:	access:private	signature:(const Singlenton&)
+Singlenton	singlenton/singlenton.cc	/^class Singlenton {$/;"	c	file:
+Singlenton::Singlenton	singlenton/singlenton.cc	/^    Singlenton()$/;"	f	class:Singlenton	file:	access:private	signature:()
+Singlenton::Singlenton	singlenton/singlenton.cc	/^    Singlenton(const Singlenton&)$/;"	f	class:Singlenton	file:	access:private	signature:(const Singlenton&)
+Singlenton::getSingenton	singlenton/singlenton.cc	/^    Singlenton* getSingenton()$/;"	f	class:Singlenton	access:public	signature:()
+Singlenton::m	singlenton/singlenton.cc	/^    mutex m;$/;"	m	class:Singlenton	file:	access:private
+Singlenton::operator =	singlenton/singlenton.cc	/^    Singlenton& operator=(const Singlenton&)$/;"	f	class:Singlenton	file:	access:private	signature:(const Singlenton&)
+Singlenton::single	singlenton/singlenton.cc	/^    static Singlenton* single;$/;"	m	class:Singlenton	file:	access:public
+Singlenton::single	singlenton/singlenton.cc	/^Singlenton* Singlenton::single;/;"	m	class:Singlenton	file:
+Treenode	static/main.cc	/^} Treenode;$/;"	t	typeref:struct:Node	file:
+a	static/static1.h	/^static int a;$/;"	v
+a	static/static2.h	/^int a = 3;$/;"	v
+b	static/static2.h	/^int b = 3;$/;"	v
+create	static/main.cc	/^Treenode* create(string& s, int& pos)$/;"	f	signature:(string& s, int& pos)
+createTree	static/main.cc	/^Treenode* createTree(string& s, int& pos)$/;"	f	signature:(string& s, int& pos)
+data	static/main.cc	/^    char data;$/;"	m	struct:Node	file:	access:public
+foo	static/m.c	/^void foo()$/;"	f
+getSingenton	singlenton/singlenton.cc	/^    Singlenton* getSingenton()$/;"	f	class:Singlenton	access:public	signature:()
+left	static/main.cc	/^    Node *right, *left;$/;"	m	struct:Node	file:	access:public
+m	singlenton/singlenton.cc	/^    mutex m;$/;"	m	class:Singlenton	file:	access:private
+main	static/main.cc	/^int main()$/;"	f	signature:()
+operator =	singlenton/singlenton.cc	/^    Singlenton& operator=(const Singlenton&)$/;"	f	class:Singlenton	file:	access:private	signature:(const Singlenton&)
+preOrder	static/main.cc	/^void preOrder(Treenode* root)$/;"	f	signature:(Treenode* root)
+preorder	static/main.cc	/^    void preorder(Node* p)$/;"	f	class:Bitree	access:public	signature:(Node* p)
+right	static/main.cc	/^    Node *right, *left;$/;"	m	struct:Node	file:	access:public
+root	static/main.cc	/^    Node* root;$/;"	m	class:Bitree	file:	access:public
+single	singlenton/singlenton.cc	/^    static Singlenton* single;$/;"	m	class:Singlenton	file:	access:public
+single	singlenton/singlenton.cc	/^Singlenton* Singlenton::single;/;"	m	class:Singlenton	file:

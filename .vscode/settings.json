@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "static2.h": "c",
+        "stdio.h": "c",
+        "iostream": "cpp"
+    }
+}
