@@ -2,6 +2,11 @@
     "files.associations": {
         "static2.h": "c",
         "stdio.h": "c",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "cmath": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp",
+        "functional": "cpp"
     }
 }
